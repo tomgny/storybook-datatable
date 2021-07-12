@@ -1,0 +1,15 @@
+.full-width-table {
+  width: 100%;
+}
+
+.error {
+  width: 100%;
+  background-color: white;
+}
+
+.error-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 5rem;
+}
