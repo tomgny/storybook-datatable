@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { DynamicDataTableComponent } from './components/dynamic-data-table.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { DynamicDataTableComponent } from './components/dynamic-data-table.compo
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    CommonModule,
     MatTableModule,
     MatSortModule,
     MatPaginatorModule,
